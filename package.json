@@ -1,0 +1,20 @@
+{
+  "name": "s3-uploader",
+  "version": "1.0.0",
+  "description": "Used to upload files to s3",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "build": "node app.js --build"
+  },
+  "author": "bhaukal",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.1692.0",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "express-session": "^1.18.1",
+    "multer": "^1.4.5-lts.1"
+  }
+}
